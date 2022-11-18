@@ -10,7 +10,7 @@ body {
   min-width: 320px;
   background-color: #4912f6;
   color: #ffffff;
-  max-width: 1280px;
+  max-width: 1440px;
   font-size: 1em;
 }
 
@@ -47,7 +47,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5em;
+  gap: 2rem;
 }
 .hero__content {
   margin: 1em 0;
