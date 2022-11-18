@@ -14,14 +14,12 @@ body {
   font-size: 1em;
 }
 
-section {
-  padding: 2em;
-  width: 100%;
+section,
+header,
+footer {
+  padding: 2rem;
 }
-header {
-  padding: 1.25rem 2rem;
-  font-size: 16px;
-}
+
 .header__container {
   min-height: 100%;
   display: flex;
@@ -69,7 +67,9 @@ button {
   font-weight: bold;
   font-size: 1.625em;
 }
-
+.cta__heading {
+  text-align: center;
+}
 .article__container {
   display: flex;
   align-items: flex-start;
