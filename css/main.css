@@ -10,7 +10,7 @@ body {
   min-width: 320px;
   background-color: #4912f6;
   color: #ffffff;
-  width: 1100px;
+  max-width: 1280px;
   font-size: 1em;
 }
 
@@ -43,9 +43,6 @@ button {
   background: linear-gradient(#ea9e3d, #ee7b38);
 }
 
-.hero {
-  padding: 2em;
-}
 .hero__container {
   display: flex;
   align-items: center;
@@ -73,17 +70,19 @@ button {
 .article__container {
   display: flex;
   align-items: flex-start;
-  gap: 5em;
+  gap: 2rem;
 }
 .article__content {
-  width: 50%;
+  width: 100%;
 }
 .article__image-wrapper {
   height: 250px;
-  width: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.article__image-wrapper img {
+  max-width: 100%;
 }
 footer {
   height: 100px;
