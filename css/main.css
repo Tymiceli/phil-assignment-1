@@ -73,7 +73,7 @@ button {
   gap: 2rem;
 }
 .article__content {
-  width: 100%;
+  flex: 1;
 }
 .article__image-wrapper {
   height: 250px;
