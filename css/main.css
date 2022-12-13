@@ -57,13 +57,23 @@ button {
   margin: 1em 0;
   width: 100%;
 }
-
 .hero__heading {
   font-size: 1.625em;
 }
 .hero__heading strong {
   font-weight: bold;
   font-size: 1.625em;
+}
+.hero__image-wrapper p {
+  margin-bottom: 0.5em;
+  padding-bottom: 0;
+}
+.hero__image-wrapper p span {
+  color: #c1bed0;
+  font-size: 0.75em;
+}
+.hero__image-wrapper img {
+  margin-top: 0;
 }
 .cta__heading {
   text-align: center;
@@ -87,4 +97,8 @@ button {
 }
 footer {
   height: 100px;
+}
+.no_decoration {
+  text-decoration: none;
+  color: #fff;
 }
